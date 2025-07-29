@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_design_sections",
+  "info": {
+    "displayName": "Design Section"
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

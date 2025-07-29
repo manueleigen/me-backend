@@ -1,0 +1,56 @@
+{
+  "kind": "singleType",
+  "collectionName": "global",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "siteTitle": {
+      "type": "string"
+    },
+    "siteDescription": {
+      "type": "text"
+    },
+    "contactEmail": {
+      "type": "email"
+    },
+    "contactPhone": {
+      "type": "string"
+    },
+    "social_links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.social-links"
+    },
+    "contactAdress": {
+      "type": "text"
+    },
+    "contactName": {
+      "type": "string"
+    },
+    "copyrightText": {
+      "type": "string"
+    },
+    "availabilitySwitch": {
+      "type": "boolean"
+    },
+    "availabilityText": {
+      "type": "blocks"
+    },
+    "siteKeywords": {
+      "type": "string"
+    },
+    "siteUrl": {
+      "type": "string"
+    },
+    "siteName": {
+      "type": "string"
+    }
+  }
+}

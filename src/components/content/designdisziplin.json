@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_designdisziplins",
+  "info": {
+    "displayName": "Designdisziplin",
+    "icon": "magic"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

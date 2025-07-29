@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "websites",
+  "info": {
+    "singularName": "website",
+    "pluralName": "websites",
+    "displayName": "Website"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "siteDescription": {
+      "type": "string"
+    }
+  }
+}

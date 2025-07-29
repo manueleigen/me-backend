@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "home-page",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home-page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "text"
+    },
+    "aboutText": {
+      "type": "richtext"
+    },
+    "designApproachTitle": {
+      "type": "string"
+    },
+    "designApproachSections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content.design-section"
+    },
+    "heroText": {
+      "type": "blocks"
+    }
+  }
+}

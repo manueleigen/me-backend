@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_project_body_texts",
+  "info": {
+    "displayName": "Project Body Text",
+    "icon": "message"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "text"
+    }
+  }
+}

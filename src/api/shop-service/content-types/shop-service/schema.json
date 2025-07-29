@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shop_services",
+  "info": {
+    "singularName": "shop-service",
+    "pluralName": "shop-services",
+    "displayName": "Shop-Service"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "service-id": {
+      "type": "uid"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}
