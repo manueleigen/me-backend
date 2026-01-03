@@ -1,0 +1,14 @@
+{
+  "kind": "singleType",
+  "collectionName": "data_fetchers",
+  "info": {
+    "singularName": "data-fetcher",
+    "pluralName": "data-fetchers",
+    "displayName": "DataFetcher"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}
