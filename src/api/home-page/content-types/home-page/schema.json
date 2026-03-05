@@ -15,7 +15,7 @@
     "heroTitle": {
       "type": "string"
     },
-    "heroSubtitle": {
+    "heroText": {
       "type": "text"
     },
     "aboutText": {
@@ -28,9 +28,6 @@
       "type": "component",
       "component": "content.design-section",
       "repeatable": true
-    },
-    "heroText": {
-      "type": "blocks"
     },
     "faqs": {
       "type": "relation",
