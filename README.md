@@ -22,7 +22,6 @@ npm run start
 yarn start
 ```
 
-
 ### `build`
 
 Build your admin panel. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-build)
@@ -60,4 +59,5 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
-# me-backend
+
+# me-backends
