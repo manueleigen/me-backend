@@ -11,8 +11,13 @@
 // Format der JSON-Datei:
 // {
 //   "update": { "<uid>": { "<documentId>": { "<locale>": { feld: wert, ... } } } },
+//   "create": { "<uid>": [ { "de": { feld: wert, ... }, "en": { feld: wert, ... } } ] },
 //   "unpublish": [ { "uid": "<uid>", "documentId": "<id>", "locale": "*" } ]
 // }
+// `create` legt das Dokument zuerst in der Default-Locale (de) an und
+// ergaenzt dann mit derselben documentId die weiteren Locale-Versionen
+// (nicht-lokalisierte Felder in jeder Locale mitgeben). Die neuen
+// documentIds werden am Ende ausgegeben.
 
 const fs = require('fs');
 const path = require('path');
@@ -47,11 +52,32 @@ const changes = JSON.parse(fs.readFileSync(path.resolve(file), 'utf8'));
         }
       }
     }
+    const created = [];
+    for (const [uid, items] of Object.entries(changes.create ?? {})) {
+      for (const item of items) {
+        const locales = Object.keys(item);
+        const first = locales.includes('de') ? 'de' : locales[0];
+        const label = item[first].question ?? item[first].title ?? item[first].name ?? '';
+        console.log(`${DRY_RUN ? '[dry] ' : ''}create ${uid} (${locales.join(', ')}): ${label}`);
+        if (DRY_RUN) continue;
+        const doc = await app.documents(uid).create({ locale: first, data: item[first], status: 'published' });
+        console.log(`  -> documentId ${doc.documentId} (${first})`);
+        for (const loc of locales.filter((l) => l !== first)) {
+          await app.documents(uid).update({ documentId: doc.documentId, locale: loc, data: item[loc], status: 'published' });
+          console.log(`  -> ${loc} angelegt`);
+        }
+        created.push({ uid, documentId: doc.documentId, label });
+      }
+    }
     for (const u of changes.unpublish ?? []) {
       console.log(`${DRY_RUN ? '[dry] ' : ''}unpublish ${u.uid} ${u.documentId} (${u.locale ?? '*'})`);
       if (!DRY_RUN) {
         await app.documents(u.uid).unpublish({ documentId: u.documentId, locale: u.locale ?? '*' });
       }
+    }
+    if (created.length) {
+      console.log('neu angelegt:');
+      for (const c of created) console.log(`  ${c.uid} ${c.documentId}  ${c.label}`);
     }
     console.log('fertig');
   } finally {

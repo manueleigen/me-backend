@@ -1,0 +1,594 @@
+{
+  "_comment": "Content-Entwurf website-content_2026-10-10.md (Sections 1-8) fuer DE und EN. Anwenden: node scripts/apply-content-changes.cjs translations/changes-2026-10-10-content-de.json [--dry-run] (Dev-Server vorher stoppen).",
+  "update": {
+    "api::global.global": {
+      "ei847jh2qcuan58zhemnnryk": {
+        "de": {
+          "siteTitle": "Manuel Eigen – Freelance Designer & Developer, Berlin",
+          "siteDescription": "Freelance Designer & Full-Stack Developer aus Berlin: Branding, Websites & Shops mit Shopware, Shopify & Next.js – Design und Code aus einer Hand.",
+          "siteKeywords": "Designer & Full-Stack Developer, Freelance Webdesigner Berlin, Shopware Freelancer, Shopify, Next.js, Webentwicklung, Branding, Editorial Design, UI/UX Design, Barrierefreiheit, Berlin, Manuel Eigen",
+          "copyrightText": "Manuel Eigen – Freelance Designer & Full-Stack Developer, Berlin. Alle Rechte vorbehalten.",
+          "availabilityText": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "Aktuell nehme ich neue Projekte an."
+                }
+              ]
+            }
+          ]
+        },
+        "en": {
+          "siteTitle": "Manuel Eigen – Freelance Designer & Developer, Berlin",
+          "siteDescription": "Freelance Designer & Full-Stack Developer based in Berlin: branding, websites & shops with Shopware, Shopify & Next.js – design and code from a single source.",
+          "siteKeywords": "Designer & Full-Stack Developer, Freelance Web Designer Berlin, Shopware Freelancer, Shopify, Next.js, Web Development, Branding, Editorial Design, UI/UX Design, Accessibility, Berlin, Manuel Eigen",
+          "copyrightText": "Manuel Eigen – Freelance Designer & Full-Stack Developer, Berlin. All rights reserved.",
+          "availabilityText": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "text",
+                  "text": "I'm currently taking on new projects."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "api::home-page.home-page": {
+      "fy3v9wrrhvdwbfw4wevnb852": {
+        "de": {
+          "heroText": "ich bin **Manuel Eigen**, **Designer** & **Full-Stack Developer**.\nIch gestalte Marken, Websites & Shops – und baue sie selbst. Design und Code aus einer Hand, für Unternehmen, Agenturen & Kultur.",
+          "aboutText": "Seit über zehn Jahren arbeite ich an der Schnittstelle von Design, Technologie & Handwerk – für Unternehmen, Agenturen, NGOs und Kulturprojekte.\n\nAngefangen habe ich als Grafikdesigner, ausgebildet am Lette Verein Berlin. Dann kamen UX/UI und immer mehr Code dazu – bis ich die Produkte selbst bauen wollte, die ich bisher nur gestaltet hatte. Nach einer Weiterbildung zum JavaScript Full-Stack Developer mache ich heute genau das: Ich entwerfe Marken, Websites & Shops und entwickle sie auch.\n\nIch arbeite strukturiert, sage früh, wenn etwas nicht funktioniert, und bleibe neugierig – auf neue Werkzeuge genauso wie auf dein Thema. Ob Shopware-Shop oder Festival-App: Ich bringe Ideen visuell auf den Punkt und baue Lösungen, die durchdacht sind und zugänglich bleiben.\n\nFür dich heißt das: ein Ansprechpartner von der ersten Skizze bis zum Launch – ohne Übergabeverluste zwischen Design und Entwicklung.",
+          "designApproachTitle": "Wie ich arbeite"
+        },
+        "en": {
+          "heroText": "I'm **Manuel Eigen**, **Designer** & **Full-Stack Developer**.\nI design brands, websites & shops – and build them myself. Design and code from a single source, for companies, agencies & culture.",
+          "aboutText": "For more than ten years I've been working at the intersection of design, technology & craft – for companies, agencies, NGOs and cultural projects.\n\nI started out as a graphic designer, trained at Lette Verein Berlin. Then UX/UI came along, and more and more code – until I wanted to build the products myself that I had only designed before. After further training as a JavaScript Full-Stack Developer, that's exactly what I do today: I design brands, websites & shops and develop them too.\n\nI work in a structured way, say early when something isn't working, and stay curious – about new tools as much as about your topic. Whether it's a Shopware shop or a festival app: I bring ideas to the point visually and build solutions that are well thought out and stay accessible.\n\nFor you, that means one point of contact from the first sketch to launch – with nothing lost in the handover between design and development.",
+          "designApproachTitle": "How I work"
+        }
+      }
+    },
+    "api::shop-service.shop-service": {
+      "bnanr6fstd07ho43w1igja8l": {
+        "de": {
+          "service-id": "Webdesign",
+          "title": "Webdesign, Entwicklung & E-Commerce",
+          "position": 1,
+          "teaser": "Websites & Shops, die schnell laden, gut aussehen und sich ohne Agentur pflegen lassen.",
+          "description": "Deine Website oder dein Shop soll gut aussehen, schnell laden und sich später ohne Agentur pflegen lassen? Dann brauchst du jemanden, der Design und Technik zusammen denkt – und nach dem Launch noch da ist.\nIch entwerfe und entwickle Websites und Shops vom ersten Wireframe bis zur Live-Schaltung – als Designer, der den Code selbst schreibt. Mein Fokus liegt auf modularen, wartbaren Lösungen: Headless-Setups mit Next.js & Strapi, klassische WordPress-Seiten, Web-Apps, die auch offline laufen, oder Online-Shops mit Shopware & Shopify. Fünf Jahre lang habe ich den Shopware-Shop der Oberflächenwelt gestaltet, entwickelt und Stück für Stück ausgebaut: Theme, Interface, individuelle Funktionen in PHP & Twig. Genau diese Mischung biete ich an – Design und Code aus einer Hand, immer mit einem Herz für Usability.\n\n### Leistungen:\n- UI/UX-Konzeption & Design – für Websites und Shops\n- Webentwicklung mit React, Next.js, TypeScript & Tailwind\n- CMS-Lösungen: Strapi, WordPress\n- Shopware 6 & Shopify: Setup, Theme-Entwicklung, Plugins\n- Redesign & Migration bestehender Shops\n- Barrierefreiheit (WCAG), Performance, SEO & responsive Design\n- Betreuung & Weiterentwicklung nach dem Launch"
+        },
+        "en": {
+          "service-id": "Webdesign",
+          "title": "Web Design, Development & E-Commerce",
+          "position": 1,
+          "teaser": "Websites & shops that load fast, look good and can be maintained without an agency.",
+          "description": "Your website or shop should look good, load fast and be easy to maintain later without an agency? Then you need someone who thinks design and technology together – and is still around after launch.\nI design and develop websites and shops from the first wireframe to going live – as a designer who writes the code himself. My focus is on modular, maintainable solutions: headless setups with Next.js & Strapi, classic WordPress sites, web apps that also run offline, or online shops with Shopware & Shopify. For five years I designed, developed and step by step extended the Shopware shop of Oberflächenwelt: theme, interface, custom features in PHP & Twig. That's exactly the mix I offer – design and code from a single source, always with a heart for usability.\n\n### Services:\n- UI/UX concept & design – for websites and shops\n- Web development with React, Next.js, TypeScript & Tailwind\n- CMS solutions: Strapi, WordPress\n- Shopware 6 & Shopify: setup, theme development, plugins\n- Redesign & migration of existing shops\n- Accessibility (WCAG), performance, SEO & responsive design\n- Maintenance & further development after launch"
+        }
+      },
+      "ry63l39k813qw3cz7imt93xe": {
+        "de": {
+          "service-id": "branding",
+          "title": "Branding & Corporate Design",
+          "position": 2,
+          "teaser": "Visuelle Identitäten, die Haltung zeigen – vom Logo bis zum Designsystem.",
+          "description": "Deine Marke soll wiedererkannt werden – auf der Visitenkarte genauso wie im Shop und auf Social Media? Dann braucht sie ein System, nicht nur ein Logo.\nIch entwickle visuelle Identitäten, die Haltung zeigen und sich konsequent anwenden lassen. Von Logo, Typografie und Farbsystem bis zur Umsetzung auf Print, Web und Raum: Ich denke Marken modular, medienübergreifend und mit klarem Blick auf Nutzer:innen und Kontext.\n\n### Leistungen:\n- Markenstrategie & visuelles Leitbild\n- Logoentwicklung & Designsysteme\n- Corporate Manuals & Templates\n- Markenumsetzung für Print, Web & Social"
+        },
+        "en": {
+          "service-id": "branding",
+          "title": "Branding & Corporate Identity",
+          "position": 2,
+          "teaser": "Visual identities that show attitude – from logo to design system.",
+          "description": "Your brand should be recognized – on a business card as much as in the shop and on social media? Then it needs a system, not just a logo.\nI develop visual identities that show attitude and can be applied consistently. From logo, typography and color system to implementation in print, web and physical space: I think of brands as modular, cross-media systems, with a clear view of users and context.\n\n### Services:\n- Brand strategy & visual guidelines\n- Logo development & design systems\n- Corporate manuals & templates\n- Brand rollout for print, web & social"
+        }
+      },
+      "f9qgwffymxyfo226nph9clzc": {
+        "de": {
+          "service-id": "Editorial",
+          "title": "Editorial & Print Design",
+          "position": 3,
+          "teaser": "Magazine, Kataloge & Broschüren – gedruckt oder als barrierefreies PDF.",
+          "description": "Du hast Inhalte, die gelesen werden sollen – gedruckt oder als PDF? Dann müssen Struktur, Typografie und Bildsprache zusammenspielen, sonst bleibt das Beste hängen.\nIch gestalte Printprodukte mit inhaltlichem Feingefühl und hohem gestalterischen Anspruch. Ob Magazin, Broschüre oder Fachhandbuch: Mein Fokus liegt auf funktionalem Design, das Inhalte klar transportiert und zugleich ästhetisch überzeugt – bis zur fertigen Druckdatei.\n\n### Leistungen:\n- Layout & Gestaltung für Magazine, Kataloge, Broschüren\n- Typografie- und Bildkonzepte, Infografiken & Piktogramme\n- Gestaltungsraster & Seitenarchitektur\n- Druckaufbereitung, Produktionsbegleitung & barrierefreie PDFs"
+        },
+        "en": {
+          "service-id": "Editorial",
+          "title": "Editorial & Print Design",
+          "position": 3,
+          "teaser": "Magazines, catalogs & brochures – in print or as an accessible PDF.",
+          "description": "You have content that should be read – in print or as a PDF? Then structure, typography and imagery have to work together, or the best parts get lost.\nI design print products with a feel for content and high design standards. Whether magazine, brochure or handbook: my focus is on functional design that communicates content clearly and is aesthetically convincing at the same time – right through to the final print file.\n\n### Services:\n- Layout & design for magazines, catalogs, brochures\n- Typography & imagery concepts, infographics & pictograms\n- Grid systems & page architecture\n- Print preparation, production support & accessible PDFs"
+        }
+      }
+    },
+    "api::project.project": {
+      "xmc1n3bejv63954tgytiy6nx": {
+        "de": {
+          "title": "Festival App: entropie",
+          "slug": "entropie-app",
+          "client": "entropie Festival",
+          "role": "Konzeption, UX/UI-Design & Entwicklung",
+          "description": "Der digitale Festival-Guide wurde entwickelt, um Besucher:innen ein klar strukturiertes, persönliches und zugängliches Festivalerlebnis zu ermöglichen – selbst ohne Internet.",
+          "categories": "UX Design\nUI Design\nWebdesign\nDevelopment",
+          "tools": "Next.js\nStrapi CMS\nPWA\nVercel\nGit\nAdobe XD\nPhotoshop\nPhpStorm",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 34
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Für das entropie-Festival habe ich den digitalen Festival-Guide konzipiert, gestaltet und entwickelt: eine Progressive Web App auf Basis von Next.js und Strapi, die Programm, Acts und Infos bündelt – und dank Offline-Modus auch dann funktioniert, wenn auf dem Gelände das Netz wegbricht. Die Inhalte pflegt das Festival-Team selbst im CMS. Von den ersten Wireframes über das UI bis zum Deployment auf Vercel kam alles aus einer Hand."
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Technik: Frontend mit Next.js (React), als Progressive Web App installierbar – Offline-Modus, damit Programm & Infos auch ohne Netz verfügbar bleiben – Backend mit Strapi als Headless CMS, die Inhalte pflegt das Festival-Team – Hosting & Deployment auf Vercel, Versionierung mit Git."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 29
+            },
+            {
+              "__component": "content.project-image",
+              "image": 32
+            },
+            {
+              "__component": "content.project-image",
+              "image": 33
+            },
+            {
+              "__component": "content.project-image",
+              "image": 31
+            },
+            {
+              "__component": "content.project-image",
+              "image": 30
+            }
+          ]
+        },
+        "en": {
+          "title": "Festival App: entropie",
+          "slug": "entropie-app",
+          "client": "entropie Festival",
+          "role": "Concept, UX/UI design & development",
+          "description": "The digital festival guide was developed to give visitors a clearly structured, personal and accessible festival experience – even without an internet connection.",
+          "categories": "UX Design\nUI Design\nWeb Design\nDevelopment",
+          "tools": "Next.js\nStrapi CMS\nPWA\nVercel\nGit\nAdobe XD\nPhotoshop\nPhpStorm",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 34
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "For the entropie festival I conceived, designed and developed the digital festival guide: a Progressive Web App built on Next.js and Strapi that brings together the program, acts and info – and thanks to its offline mode keeps working even when the network drops out on the festival grounds. The festival team maintains the content themselves in the CMS. From the first wireframes through the UI to deployment on Vercel, everything came from a single source."
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Tech: frontend with Next.js (React), installable as a Progressive Web App – offline mode so the program & info stay available without a network – backend with Strapi as headless CMS, content maintained by the festival team – hosting & deployment on Vercel, version control with Git."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 29
+            },
+            {
+              "__component": "content.project-image",
+              "image": 32
+            },
+            {
+              "__component": "content.project-image",
+              "image": 33
+            },
+            {
+              "__component": "content.project-image",
+              "image": 31
+            },
+            {
+              "__component": "content.project-image",
+              "image": 30
+            }
+          ]
+        }
+      },
+      "g35ksb80wia86yd3mafhy608": {
+        "de": {
+          "title": "Shopware-Shop: Oberflächenwelt",
+          "slug": "oberflaechenwelt-shopware",
+          "client": "Oberflächenwelt GmbH, Berlin",
+          "year": "2020–2025",
+          "role": "UX/UI-Design & Shopware-Entwicklung",
+          "categories": "E-Commerce\nUX & UI Design\nShopware-Entwicklung\nCorporate Design",
+          "tools": "Shopware 6\nPHP\nSymfony\nTwig\nHTML / CSS / JavaScript\nDocker\nPhpStorm\nCinema 4D",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 20
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Die Oberflächenwelt ist ein Berliner Fachgroßhandel für mineralische Farben und Edelputze – hochwertige Oberflächen für Architektur- und Designprojekte. Über fünf Jahre habe ich den Online-Shop auf Shopware-Basis gestaltet und technisch weiterentwickelt: vom Theme über das Interface bis zu individuellen Shop-Funktionen in PHP, Symfony und Twig. Dazu kamen 3D-Visualisierungen der Produkte und die laufende Betreuung. Design und Entwicklung aus einer Hand – genau die Kombination, die ich heute als Designer & Full-Stack Developer anbiete."
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Technik: Shopware 6 mit eigenem Theme (Twig, SCSS, JavaScript) – individuelle Shop-Funktionen als Plugins in PHP & Symfony – lokale Entwicklung mit Docker, Versionierung mit Git – Produktvisualisierungen in Cinema 4D."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 21
+            },
+            {
+              "__component": "content.project-image",
+              "image": 28
+            },
+            {
+              "__component": "content.project-image",
+              "image": 23
+            }
+          ]
+        },
+        "en": {
+          "title": "Shopware Shop: Oberflächenwelt",
+          "slug": "oberflaechenwelt-shopware",
+          "client": "Oberflächenwelt GmbH, Berlin",
+          "year": "2020–2025",
+          "role": "UX/UI design & Shopware development",
+          "categories": "E-Commerce\nUX & UI Design\nShopware Development\nCorporate Design",
+          "tools": "Shopware 6\nPHP\nSymfony\nTwig\nHTML / CSS / JavaScript\nDocker\nPhpStorm\nCinema 4D",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 20
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Oberflächenwelt is a Berlin-based specialist wholesaler for mineral paints and fine plasters – high-quality surfaces for architecture and design projects. For more than five years I designed and technically developed the Shopware-based online shop: from the theme and the interface to custom shop features in PHP, Symfony and Twig. On top of that came 3D visualizations of the products and ongoing maintenance. Design and development from a single source – exactly the combination I offer today as a Designer & Full-Stack Developer."
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Tech: Shopware 6 with a custom theme (Twig, SCSS, JavaScript) – custom shop features as plugins in PHP & Symfony – local development with Docker, version control with Git – product visualizations in Cinema 4D."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 21
+            },
+            {
+              "__component": "content.project-image",
+              "image": 28
+            },
+            {
+              "__component": "content.project-image",
+              "image": 23
+            }
+          ]
+        }
+      },
+      "ctcpjuty1vvc94olmzpr62hw": {
+        "de": {
+          "title": "Möbelkonfigurator: Pickawood",
+          "slug": "pickawood-conf",
+          "client": "pickawood GmbH, Hamburg",
+          "role": "UX/UI-Design, 3D-Visualisierung & Katalog-Design",
+          "categories": "UX Design\nUI Design\nWebdesign\n3D-Visualisierung",
+          "tools": "Adobe XD\nPhotoshop\nIllustrator\nCinema 4D",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 18
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Pickawood verkauft Maßmöbel online – Regale, Schränke und Tische, die Kund:innen selbst zusammenstellen. Herzstück des Shops ist der Möbelkonfigurator: Maße, Material und Aufteilung lassen sich millimetergenau anpassen, ohne dass die Übersicht verloren geht. Ich habe das Interface des Konfigurators und zentrale Shop-Flows gestaltet und die Möbel in 3D visualisiert – für den Konfigurator, den Shop und die gedruckten Kataloge. So wird die Flexibilität der Produkte sichtbar, bevor jemand bestellt."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 19
+            }
+          ]
+        },
+        "en": {
+          "title": "Furniture Configurator: Pickawood",
+          "slug": "pickawood-conf",
+          "client": "pickawood GmbH, Hamburg",
+          "role": "UX/UI design, 3D visualization & catalog design",
+          "categories": "UX Design\nUI Design\nWeb Design\n3D Visualization",
+          "tools": "Adobe XD\nPhotoshop\nIllustrator\nCinema 4D",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 18
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Pickawood sells made-to-measure furniture online – shelves, cabinets and tables that customers configure themselves. The heart of the shop is the furniture configurator: dimensions, material and layout can be adjusted down to the millimeter without losing track. I designed the configurator's interface and key shop flows and visualized the furniture in 3D – for the configurator, the shop and the printed catalogs. That makes the flexibility of the products visible before anyone orders."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 19
+            }
+          ]
+        }
+      },
+      "cr6ei21lcqi8lf5r2tb1m2q9": {
+        "de": {
+          "title": "Diakonie Fachhandbuch: Junge Pflegende",
+          "slug": "diakonie-fachhandbuch",
+          "client": "EPYC & Diakonisches Werk Berlin Stadtmitte",
+          "role": "Editorial Design, Infografiken & barrierefreie PDF-Ausgabe",
+          "categories": "Editorial\nLayout\nPrint\nInfografik",
+          "tools": "InDesign\nPhotoshop\nIllustrator",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 24
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Im Auftrag von EPYC und dem Diakonischen Werk Berlin Stadtmitte gestaltete ich das 76-seitige Handbuch „Empowering Professionals to Support Young Carers“. Basis ist ein präzises Zwei-Spalten-Raster mit klaren Typo-Hierarchien und dezenten Farbklammern, die Fachkräfte zielsicher durch Hintergrundwissen, Praxisleitfäden und modulare Arbeitsmaterialien führen. Ich verantwortete das komplette Editorial Design: Layout-Konzept, Infografiken, Piktogramm-Set, Bildrecherche, Satz sowie die Ausgabe als druckoptimierte und barrierefreie PDF-Versionen."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 25
+            },
+            {
+              "__component": "content.project-image",
+              "image": 26
+            }
+          ]
+        },
+        "en": {
+          "title": "Diakonie Handbook: Young Carers",
+          "slug": "diakonie-fachhandbuch",
+          "client": "EPYC & Diakonisches Werk Berlin Stadtmitte",
+          "role": "Editorial design, infographics & accessible PDF output",
+          "categories": "Editorial\nLayout\nPrint\nInfographics",
+          "tools": "InDesign\nPhotoshop\nIllustrator",
+          "bodypage": [
+            {
+              "__component": "content.project-image",
+              "image": 24
+            },
+            {
+              "__component": "content.project-body-text",
+              "Text": "Commissioned by EPYC and Diakonisches Werk Berlin Stadtmitte, I designed the 76-page handbook “Empowering Professionals to Support Young Carers”. It is built on a precise two-column grid with clear typographic hierarchies and subtle color coding that guides professionals through background knowledge, practical guides and modular working materials. I was responsible for the entire editorial design: layout concept, infographics, pictogram set, image research, typesetting, and the output as print-optimized and accessible PDF versions."
+            },
+            {
+              "__component": "content.project-image",
+              "image": 25
+            },
+            {
+              "__component": "content.project-image",
+              "image": 26
+            }
+          ]
+        }
+      }
+    },
+    "api::skill.skill": {
+      "fpt9sajdz129yp49o2co4d0u": {
+        "de": {
+          "category": "Code & Technologie",
+          "position": 1,
+          "items": "JavaScript & TypeScript\nReact & Next.js\nNode.js\nPHP & Symfony\nHTML, CSS & Tailwind\nShopware 6\nShopify\nStrapi CMS\nWordPress\nREST-APIs\nGit & Docker\nVercel\nBarrierefreiheit (WCAG)\nSEO & Performance"
+        },
+        "en": {
+          "category": "Code & Technology",
+          "position": 1,
+          "items": "JavaScript & TypeScript\nReact & Next.js\nNode.js\nPHP & Symfony\nHTML, CSS & Tailwind\nShopware 6\nShopify\nStrapi CMS\nWordPress\nREST APIs\nGit & Docker\nVercel\nAccessibility (WCAG)\nSEO & Performance"
+        }
+      },
+      "r1dfa9n43pkppqld20dk0ov0": {
+        "de": {
+          "category": "Gestaltung & Konzeption",
+          "position": 2,
+          "items": "Branding & Corporate Design\nEditorial & Print\nUI/UX-Design\nGrafikdesign\n3D-Visualisierung & Animation\nPackaging\nBarrierefreies Design"
+        },
+        "en": {
+          "category": "Design & Concept",
+          "position": 2,
+          "items": "Branding & Corporate Design\nEditorial & Print\nUI/UX Design\nGraphic Design\n3D Visualization & Animation\nPackaging\nAccessible Design"
+        }
+      },
+      "kqcvog5rah9ud95ctjf8fh0t": {
+        "de": {
+          "category": "Tools & Software",
+          "position": 3,
+          "items": "Photoshop\nIllustrator\nInDesign\nAfter Effects\nPremiere Pro\nCinema 4D\nVisual Studio Code\nPhpStorm\nClaude\nmake.com\nAdobe XD"
+        },
+        "en": {
+          "category": "Tools & Software",
+          "position": 3,
+          "items": "Photoshop\nIllustrator\nInDesign\nAfter Effects\nPremiere Pro\nCinema 4D\nVisual Studio Code\nPhpStorm\nClaude\nmake.com\nAdobe XD"
+        }
+      }
+    },
+    "api::faq.faq": {
+      "mdwmtudwb8egdh4d0xrv08gq": {
+        "de": {
+          "question": "Was genau machst du – Design oder Entwicklung?",
+          "active": true,
+          "position": 1,
+          "answer": "Beides, und zwar bewusst. Ich habe als Grafikdesigner angefangen und über die Jahre immer mehr Code dazugelernt – inzwischen mit Abschluss als Full-Stack Developer. Für dich heißt das: Du bekommst Marke, Website oder Shop aus einer Hand, ohne dass zwischen Entwurf und Umsetzung etwas verloren geht. Wenn ein Projekt nur Design oder nur Entwicklung braucht, geht das genauso."
+        },
+        "en": {
+          "question": "What exactly do you do – design or development?",
+          "active": true,
+          "position": 1,
+          "answer": "Both, and deliberately so. I started out as a graphic designer and picked up more and more code over the years – by now with a degree as a Full-Stack Developer. For you, that means: you get your brand, website or shop from a single source, with nothing lost between concept and implementation. If a project only needs design or only development, that works just as well."
+        }
+      },
+      "mxeg0w5kmrcw0w1e95kvh16j": {
+        "de": {
+          "question": "Was kostet die Zusammenarbeit?",
+          "active": true,
+          "position": 2,
+          "answer": "Das hängt vom Umfang ab, deshalb gibt es nach einem ersten Gespräch ein konkretes Angebot. Zur Orientierung: Mein Tagessatz liegt bei 600 € netto. Kleinere Projekte wie ein Logo oder eine Broschüre beginnen bei etwa 800–1.500 € netto, komplette Markenauftritte oder Websites mit Entwicklung liegen meist zwischen 3.000 und 10.000 € netto. Klar definierte Projekte rechne ich gern als Festpreis ab, laufende Zusammenarbeit nach Aufwand."
+        },
+        "en": {
+          "question": "What does working together cost?",
+          "active": true,
+          "position": 2,
+          "answer": "That depends on the scope, so you'll get a concrete quote after an initial conversation. As a guide: my day rate is €600 net. Smaller projects like a logo or a brochure start at around €800–1,500 net; complete brand identities or websites including development usually range between €3,000 and €10,000 net. I'm happy to quote clearly defined projects at a fixed price; ongoing collaboration is billed by time and effort."
+        }
+      },
+      "lvho8tfe93cioqkayamq8ckq": {
+        "de": {
+          "question": "Wie lange dauert ein Projekt?",
+          "active": true,
+          "position": 3,
+          "answer": "Ein Logo mit Geschäftsausstattung schaffe ich in zwei bis vier Wochen, ein kompletter Markenauftritt braucht eher vier bis acht. Websites und Shops mit Entwicklung liegen je nach Funktionsumfang bei sechs bis zwölf Wochen. Der größte Zeitfaktor bist meistens du: Feedback-Runden und fertige Inhalte entscheiden, wie schnell es vorangeht. Wenn es eilig ist, sag es früh – dann finden wir einen Weg."
+        },
+        "en": {
+          "question": "How long does a project take?",
+          "active": true,
+          "position": 3,
+          "answer": "A logo with stationery takes me two to four weeks; a complete brand identity more like four to eight. Websites and shops including development take six to twelve weeks, depending on the feature set. The biggest time factor is usually you: feedback rounds and finished content decide how fast things move. If it's urgent, say so early – then we'll find a way."
+        }
+      },
+      "e3a37axaaesk3lxef1ki0vmy": {
+        "de": {
+          "question": "Wie läuft die Zusammenarbeit ab?",
+          "active": true,
+          "position": 5,
+          "answer": "Erst reden wir – über Ziele, Anforderungen und das, was dir wichtig ist. Daraus wird ein Angebot. Danach entwickle ich erste Konzepte, wir besprechen sie und ich verfeinere Schritt für Schritt. Du siehst dabei regelmäßig, wo wir stehen, und bekommst keine Überraschungen am Ende. Ob remote oder vor Ort in Berlin, entscheiden wir nach Projekt – meine Kund:innen sitzen in ganz Deutschland und darüber hinaus."
+        },
+        "en": {
+          "question": "How does working together work?",
+          "active": true,
+          "position": 5,
+          "answer": "First we talk – about goals, requirements and what matters to you. That turns into a quote. Then I develop first concepts, we discuss them and I refine step by step. You'll see regularly where we stand, with no surprises at the end. Whether remote or on site in Berlin depends on the project – my clients are all over Germany and beyond."
+        }
+      }
+    },
+    "api::process-step.process-step": {
+      "j43lu82vjkx1feoqgo196y3v": {
+        "de": {
+          "title": "Briefing & Recherche",
+          "description": "Wir reden über Ziele, Anforderungen und Zielgruppe. Dann schaue ich mir Markt, Wettbewerb und Kontext an – damit das Konzept auf etwas steht."
+        },
+        "en": {
+          "title": "Briefing & Research",
+          "description": "We talk about goals, requirements and target audience. Then I look at the market, the competition and the context – so the concept has something to stand on."
+        }
+      },
+      "rawfloj43te37a500zc8ie5z": {
+        "de": {
+          "title": "Konzeption & Strategie",
+          "description": "Aus dem Briefing wird eine Richtung: Was soll das Ding leisten, für wen, mit welcher Haltung? Erst wenn das klar ist, wird gestaltet."
+        },
+        "en": {
+          "title": "Concept & Strategy",
+          "description": "The briefing turns into a direction: what should it do, for whom, with what attitude? Only once that's clear does the design work start."
+        }
+      },
+      "sipg83daswqcnmky9mv10jfs": {
+        "de": {
+          "title": "Design & Entwicklung",
+          "description": "Erste Entwürfe, dein Feedback, nächste Runde. Bei Web- und Shop-Projekten entsteht parallel der Code – Design und Technik wachsen zusammen."
+        },
+        "en": {
+          "title": "Design & Development",
+          "description": "First drafts, your feedback, next round. For web and shop projects the code takes shape in parallel – design and technology grow together."
+        }
+      },
+      "o3kfk9f7wshtvqhfyhs1ss48": {
+        "de": {
+          "title": "Umsetzung & Launch",
+          "description": "Nach der Freigabe liefere ich alle Dateien, Druckdaten oder den fertigen Launch. Und bleibe ansprechbar, wenn danach noch etwas kommt."
+        },
+        "en": {
+          "title": "Implementation & Launch",
+          "description": "After approval I deliver all files, print data or the finished launch. And I stay available if anything comes up afterwards."
+        }
+      }
+    }
+  },
+  "create": {
+    "api::faq.faq": [
+      {
+        "de": {
+          "question": "Wann kannst du anfangen?",
+          "active": true,
+          "position": 4,
+          "answer": "Kleinere Aufgaben kann ich oft kurzfristig neben laufenden Projekten einplanen, größere brauchen etwas Vorlauf. Ob gerade etwas frei ist, siehst du am Status im Kontaktbereich. Schreib mir am besten mit einem groben Zeitrahmen, dann sage ich dir ehrlich, ob es passt."
+        },
+        "en": {
+          "question": "When can you start?",
+          "active": true,
+          "position": 4,
+          "answer": "Smaller tasks I can often fit in at short notice alongside ongoing projects; larger ones need some lead time. Whether I'm currently available, you can see from the status in the contact section. Best write to me with a rough time frame, and I'll tell you honestly whether it fits."
+        }
+      },
+      {
+        "de": {
+          "question": "Arbeitest du auch für Agenturen?",
+          "active": true,
+          "position": 6,
+          "answer": "Ja, gern. Ich arbeite als Subunternehmer für Agenturen, die Design- oder Entwicklungskapazität brauchen. Ich kann mich in bestehende Teams, Tools und Design-Systeme einklinken oder ein Teilprojekt komplett übernehmen, zum Beispiel die Shopware-Umsetzung zu eurem Konzept."
+        },
+        "en": {
+          "question": "Do you also work for agencies?",
+          "active": true,
+          "position": 6,
+          "answer": "Yes, gladly. I work as a subcontractor for agencies that need design or development capacity. I can plug into existing teams, tools and design systems, or take over a sub-project completely – for example the Shopware implementation of your concept."
+        }
+      },
+      {
+        "de": {
+          "question": "Was passiert nach dem Launch?",
+          "active": true,
+          "position": 7,
+          "answer": "Du bist nicht allein. Nach dem Launch bleibe ich ansprechbar – für kleine Änderungen, Updates oder neue Funktionen. Wer es planbar mag, bekommt ein Angebot für die laufende Betreuung; alles andere rechne ich nach Aufwand ab. Updates von Shopware, WordPress oder Plugins mache ich auf Wunsch, damit der Shop sicher bleibt."
+        },
+        "en": {
+          "question": "What happens after launch?",
+          "active": true,
+          "position": 7,
+          "answer": "You're not on your own. After launch I stay available – for small changes, updates or new features. If you prefer things to be predictable, I'll put together an offer for ongoing maintenance; everything else is billed by time and effort. Updates for Shopware, WordPress or plugins I take care of on request, so the shop stays secure."
+        }
+      },
+      {
+        "de": {
+          "question": "Was gehört dir am Ende?",
+          "active": true,
+          "position": 8,
+          "answer": "Alles, was du brauchst, um ohne mich weiterzuarbeiten. Du bekommst die Nutzungsrechte an Logo, Design und Website. Quellcode und CMS-Zugang übergebe ich nach der Schlusszahlung. Hosting und Domain laufen auf deinen Namen. Was genau dazugehört, steht im Angebot."
+        },
+        "en": {
+          "question": "What do you own in the end?",
+          "active": true,
+          "position": 8,
+          "answer": "Everything you need to carry on without me. You receive the usage rights to logo, design and website. Source code and CMS access I hand over after the final payment. Hosting and domain run in your name. What exactly is included is stated in the quote."
+        }
+      }
+    ]
+  },
+  "unpublish": [
+    {
+      "uid": "api::skill.skill",
+      "documentId": "fptwz6iqva1ku0x5bbeocts3",
+      "locale": "*"
+    },
+    {
+      "uid": "api::faq.faq",
+      "documentId": "w0murdgrcwwrrg91isaa3ua7",
+      "locale": "*"
+    },
+    {
+      "uid": "api::faq.faq",
+      "documentId": "u0qaybnz1ce5lyg1brrkdln9",
+      "locale": "*"
+    },
+    {
+      "uid": "api::testimonial.testimonial",
+      "documentId": "h8jfm2w6lcn77dc0kf3natlf",
+      "locale": "*"
+    },
+    {
+      "uid": "api::testimonial.testimonial",
+      "documentId": "zxgh04gox0200xto39chci6j",
+      "locale": "*"
+    }
+  ]
+}
