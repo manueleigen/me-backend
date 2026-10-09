@@ -1,0 +1,10 @@
+{
+  "update": {
+    "api::skill.skill": {
+      "kqcvog5rah9ud95ctjf8fh0t": {
+        "de": { "items": "Figma\nPhotoshop\nIllustrator\nInDesign\nAfter Effects\nPremiere Pro\nCinema 4D\nVisual Studio Code\nPhpStorm\nClaude\nmake.com" },
+        "en": { "items": "Figma\nPhotoshop\nIllustrator\nInDesign\nAfter Effects\nPremiere Pro\nCinema 4D\nVisual Studio Code\nPhpStorm\nClaude\nmake.com" }
+      }
+    }
+  }
+}
