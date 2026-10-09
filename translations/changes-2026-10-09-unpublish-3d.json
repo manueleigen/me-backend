@@ -1,0 +1,5 @@
+{
+  "unpublish": [
+    { "uid": "api::shop-service.shop-service", "documentId": "ghrryo09wi3uxj68ucu2d22m", "locale": "*" }
+  ]
+}
