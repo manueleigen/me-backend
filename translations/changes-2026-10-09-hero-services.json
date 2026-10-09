@@ -1,0 +1,25 @@
+{
+  "update": {
+    "api::home-page.home-page": {
+      "fy3v9wrrhvdwbfw4wevnb852": {
+        "de": { "heroText": "ich bin **Manuel Eigen**,\n**Designer** & **Full-Stack Developer** für Branding, Web & E-Commerce." },
+        "en": { "heroText": "I'm **Manuel Eigen**,\n**Designer** & **Full-Stack Developer** for branding, web & e-commerce." }
+      }
+    },
+    "api::shop-service.shop-service": {
+      "bnanr6fstd07ho43w1igja8l": {
+        "de": {
+          "title": "Webdesign, Entwicklung & E-Commerce",
+          "description": "Ich entwerfe und entwickle Websites und Shops, die nicht nur gut aussehen – sondern auch funktionieren und verkaufen.\nVom ersten Wireframe bis zur Live-Schaltung bringe ich Design und Technik zusammen – als Designer, der den Code selbst schreibt. Mein Fokus liegt auf modularen, skalierbaren Lösungen: Headless-Setups mit Next.js & Strapi, klassische WordPress-Seiten, Web-Apps, die auch offline laufen, oder Online-Shops mit Shopware & Shopify. Fünf Jahre lang habe ich den Shopware-Shop der Oberflächenwelt gestaltet, entwickelt und Stück für Stück weitergebaut – genau diese Mischung aus Design und Code aus einer Hand biete ich an.\n\n### Leistungen:\n- UI/UX-Konzeption & Design\n- Webentwicklung mit React, Next.js, TypeScript & Tailwind\n- CMS-Lösungen: Strapi, WordPress\n- Online-Shops mit Shopware 6 & Shopify: Konzeption, Theme-Entwicklung, Plugins, Migration\n- Responsive Design, Barrierefreiheit (WCAG), Performance & SEO\n- Betreuung & Weiterentwicklung nach dem Launch"
+        },
+        "en": {
+          "title": "Web Design, Development & E-Commerce",
+          "description": "I design and develop websites and shops that don't just look good – they work and sell.\nFrom the first wireframe to going live, I bring design and technology together – as a designer who writes the code himself. My focus is on modular, scalable solutions: headless setups with Next.js & Strapi, classic WordPress sites, web apps that also run offline, or online shops with Shopware & Shopify. For five years I designed, developed and step by step extended the Shopware shop of Oberflächenwelt – that's exactly the mix I offer: design and code from a single source.\n\n### Services:\n- UI/UX concept & design\n- Web development with React, Next.js, TypeScript & Tailwind\n- CMS solutions: Strapi, WordPress\n- Online shops with Shopware 6 & Shopify: concept, theme development, plugins, migration\n- Responsive design, accessibility (WCAG), performance & SEO\n- Maintenance & further development after launch"
+        }
+      }
+    }
+  },
+  "unpublish": [
+    { "uid": "api::shop-service.shop-service", "documentId": "wg1y760kt8yuz0ftq30jxs58", "locale": "*" }
+  ]
+}
